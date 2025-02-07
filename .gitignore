@@ -1,0 +1,64 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules
+dist
+dist-ssr
+
+# Local environment files
+*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Windows Git-specific issues
+$RECYCLE.BIN/
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# PowerShell-related files
+*.ps1
+*.psm1
+
+# Windows lock files
+*.lock
+
+# Build folder
+build/
+
+# Coverage reports (Jest)
+coverage/
+
+# Dependency lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Linting and cache files
+.eslintcache
+.npmrc
